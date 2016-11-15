@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html ng-app="myLibrary">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="/Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/myApp/myLibrary.js"></script>
+    <script src="/Scripts/myApp/booksController.js"></script>
+    <script src="/Scripts/myApp/authorsController.js"></script>
+
+
+</head>
+<body>
+    <!-- your View will appear here  -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Library</a>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#authors">Author</a></li>
+
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+    <div style="margin-top:5em" class="container">
+        <div ng-view></div>
+    </div>
+
+</body>
+
+</html>
