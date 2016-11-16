@@ -17,3 +17,4 @@ C:\Users\moham\Desktop\LibraryDemo\angularjsApp\bin\Microsoft.CodeDom.Providers.
 C:\Users\moham\Desktop\LibraryDemo\angularjsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\moham\Desktop\LibraryDemo\angularjsApp\obj\Debug\angularjsApp.dll
 C:\Users\moham\Desktop\LibraryDemo\angularjsApp\obj\Debug\angularjsApp.pdb
+C:\Users\moham\Desktop\LibraryDemo\angularjsApp\obj\Debug\LibraryDemo.csprojResolveAssemblyReference.cache

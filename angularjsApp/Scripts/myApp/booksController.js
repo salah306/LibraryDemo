@@ -1,4 +1,4 @@
-﻿myLibrary.controller("booksController", function ($scope, $location) {
+﻿myLibrary.controller("booksController", function ($scope) {
      
     $scope.books = [
         { name: 'A brief history of time', author: 'Stephen Hawking' },
